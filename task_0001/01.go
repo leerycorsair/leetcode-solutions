@@ -1,6 +1,6 @@
-package main_01
+package task0001
 
-func twoSum(nums []int, target int) []int {
+func twoSum_01(nums []int, target int) []int {
 	for i := 0; i < len(nums)-1; i++ {
 		for j := i + 1; j < len(nums); j++ {
 			if nums[i]+nums[j] == target {

@@ -13,7 +13,6 @@ func searchInsert(nums []int, target int) int {
 			}
 			left = mid + 1
 		}
-
 	}
 
 	return 0

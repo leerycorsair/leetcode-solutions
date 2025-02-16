@@ -1,6 +1,6 @@
 package task0066
 
-func plusOne(digits []int) []int {
+func plusOne_01(digits []int) []int {
 	var prev = (digits[len(digits)-1] + 1) / 10
 	digits[len(digits)-1] = (digits[len(digits)-1] + 1) % 10
 	for i := 1; i < len(digits); i++ {
